@@ -7,10 +7,16 @@
 </div>
 
 |Organization / Institution|Website|URL|
-|:-----------------------|:------|:--|
+|:-------------------------|:------|:--|
 |World Health Organization|[who.int](https://www.who.int/)|[https://www.who.int/data/gho/data/indicators](https://www.who.int/data/gho/data/indicators)|
 |The World Bank|[worldbank.org](https://www.worldbank.org/en/home)|[https://datacatalog.worldbank.org/home](https://datacatalog.worldbank.org/home)
 |Registry of Open Data on AWS|[registry.opendata.aws](https://registry.opendata.aws/)|[https://registry.opendata.aws/](https://registry.opendata.aws/)|
+|Five Thirty Eight|[data.fivethirtyeight.com](https://data.fivethirtyeight.com/)|[https://data.fivethirtyeight.com/](https://data.fivethirtyeight.com/)|
+|U.S Census Bureau|[census.gov](https://www.census.gov/data.html)|[https://data.census.gov/cedsci/](https://data.census.gov/cedsci/)|
+|U.S Government's Open Data|[data.gov](https://www.data.gov/)|[https://www.data.gov/](https://www.data.gov/)|
+|Yelp|[yelp.com](https://www.yelp.com)|[https://www.yelp.com/dataset](https://www.yelp.com/dataset)|
+|UNICEF|[unicef.org](https://www.unicef.org)|[https://data.unicef.org/](https://data.unicef.org/)|
+
 
 <div align='center'>
     <h2>Interesting topics</h2>
