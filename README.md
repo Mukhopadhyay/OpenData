@@ -9,6 +9,53 @@
 </div>
 
 <div align='center'>
+    <h2>Countries Open Data</h2>
+</div>
+
+<center>
+
+|Country|URL|
+|:------|:--|
+|Canada|[open.canada.ca/en/open-data](https://open.canada.ca/en/open-data)|
+|United States|[www.data.gov/](https://www.data.gov/)|
+|Peru|[datosperu.org/](https://www.datosperu.org/)|
+|Ireland|[data.gov.ie/](https://data.gov.ie/)|
+|United Kingdom|[data.gov.uk/](https://data.gov.uk/)|
+|Spain|[opendata.euskadi.eus/hasiera/](https://opendata.euskadi.eus/hasiera/)|
+|France|[data.gouv.fr/fr/](https://www.data.gouv.fr/fr/)|
+|Belgium|[data.gov.be/en](https://data.gov.be/en)|
+|Netherlands|[data.overheid.nl/](https://data.overheid.nl/)|
+|Denmark|[digitaliser.dk/](https://digitaliser.dk/)|
+|Norway|[data.norge.no/](https://data.norge.no/)|
+|Italy|[datiopen.it/](http://www.datiopen.it/)|
+|Austria|[data.gv.at/auftritte/?organisation=stadt-wien](https://www.data.gv.at/auftritte/?organisation=stadt-wien)|
+|Czech|[opendata.cz/en/](https://opendata.cz/en/)|
+|Greece|[geodata.gov.gr/](http://geodata.gov.gr/)|
+|Moldova|[dataset.gov.md/](https://dataset.gov.md/)|
+|Estonia|[andmed.stat.ee/et/stat](https://andmed.stat.ee/et/stat)|
+|Finland|[www.suomi.fi/tervetuloa-uudistuneeseen-suomifihin](https://www.suomi.fi/tervetuloa-uudistuneeseen-suomifihin)|
+|Morocco|[data.gov.ma/](http://data.gov.ma/)|
+|Ghana|[data.gov.gh/](https://data.gov.gh/)|
+|Kenya|[www.opendata.go.ke/](https://www.opendata.go.ke/)|
+|Israel|[data.gov.il/](https://data.gov.il/)|
+|Saudi Arabia|[my.gov.sa/wps/portal/snp/main/](https://www.my.gov.sa/wps/portal/snp/main/)|
+|Bahrain|[bahrain.bh/wps/portal](https://www.bahrain.bh/wps/portal)|
+|United Arab Emirates|[bayanat.ae/en/Data](https://bayanat.ae/en/Data)|
+|Oman|[opendata.om/](https://opendata.om/)|
+|India|[data.gov.in/](https://www.data.gov.in/)|
+|Singapore|[data.gov.sg/](https://data.gov.sg/)|
+|Hong Kong|[data.gov.hk/en/](https://data.gov.hk/en/)|
+|Philippines|[data.gov.ph/](https://data.gov.ph/)|
+|Timor-Leste|[transparency.gov.tl/](http://www.transparency.gov.tl/)|
+|South Korea|[data.go.kr/](https://www.data.go.kr/)|
+|Australia|[data.australia.gov.au/](http://data.australia.gov.au/)|
+|New Zealand|[data.govt.nz/](https://www.data.govt.nz/)|
+
+</center>
+
+---
+
+<div align='center'>
     <h2>OpenData Websites</h2>
 </div>
 
@@ -24,6 +71,10 @@
 |UNICEF|[unicef.org](https://www.unicef.org)|[https://data.unicef.org/](https://data.unicef.org/)|
 |America's Education Data|[data.ed.gov](https://data.ed.gov/)|[https://data.ed.gov/dataset](https://data.ed.gov/dataset)|
 |GENESIS|[destatis.de/EN/Home](https://www.destatis.de/EN/Home)|[https://www-genesis.destatis.de/genesis/online/data](https://www-genesis.destatis.de/genesis/online/data?operation=sprachwechsel&language=en)|
+|Open Minneapolis|[opendata.minneapolismn.gov](https://opendata.minneapolismn.gov/)|[https://opendata.minneapolismn.gov/](https://opendata.minneapolismn.gov/)|
+|Canada Government's Open Data|[open.canada.ca](https://www.canada.ca/en.html)|[https://open.canada.ca/en/open-data](https://open.canada.ca/en/open-data)|
+|Peru Government's Open Data|[dataosperu.org](https://www.datosperu.org/)|[https://www.datosperu.org/](https://www.datosperu.org/)|
+
 
 <div align='center'>
     <h2>Topics</h2>
