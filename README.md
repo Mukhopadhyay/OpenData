@@ -228,7 +228,7 @@
 |**Indianapolis/Marion County**|US City or County|[data.indy.gov](http://data.indy.gov/)|
 |**Indonesia**|International Country|[data.go.id](https://data.go.id/)|
 |**Iowa**|US State|[data.iowa.gov](http://data.iowa.gov/)|
-|**Ireland**|International Country|[www.statcentral.ie](http://www.statcentral.ie/)|
+|**Ireland**|International Country|[data.gov.ie](https://data.gov.ie/)|
 |**Italian Parliament**|International Regional|[dati.camera.it](http://dati.camera.it/it/)|
 |**Italy**|International Country|[www.dati.gov.it](http://www.dati.gov.it/)|
 |**Italy Senate**|International Regional|[dati.senato.it](http://dati.senato.it/)|
