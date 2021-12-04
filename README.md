@@ -4,50 +4,70 @@
 
 <div align='center'>
 
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)](https://forthebadge.com)
+
+</div>
+<br/><br/>
+
+<div align='center'>
+<div style="width: 500px">
+
+> **Open Data** is the idea that some data should be freely available 
+> to everyone to use and republish as they wish, without restrictions 
+> from copyright, patents or other mechanisms of control. 
+> <cite>[Wikipedia](https://en.wikipedia.org/wiki/Open_data)</cite>
+
+</div>
+</div>
+
+<br/>
+
+<div align='center'>
+    <h2>Countries with Open Data</h2>
 </div>
 
 <div align='center'>
-    <h2>Countries Open Data</h2>
-</div>
 
 |Country|URL|
 |:------|:--|
 |Canada|[open.canada.ca/en/open-data](https://open.canada.ca/en/open-data)|
-|United States|[www.data.gov/](https://www.data.gov/)|
-|Peru|[datosperu.org/](https://www.datosperu.org/)|
-|Ireland|[data.gov.ie/](https://data.gov.ie/)|
-|United Kingdom|[data.gov.uk/](https://data.gov.uk/)|
-|Spain|[opendata.euskadi.eus/hasiera/](https://opendata.euskadi.eus/hasiera/)|
-|France|[data.gouv.fr/fr/](https://www.data.gouv.fr/fr/)|
+|United States|[www.data.gov](https://www.data.gov/)|
+|Peru|[datosperu.org](https://www.datosperu.org/)|
+|Ireland|[data.gov.ie](https://data.gov.ie/)|
+|United Kingdom|[data.gov.uk](https://data.gov.uk/)|
+|Spain|[opendata.euskadi.eus/hasiera](https://opendata.euskadi.eus/hasiera/)|
+|France|[data.gouv.fr/fr](https://www.data.gouv.fr/fr/)|
 |Belgium|[data.gov.be/en](https://data.gov.be/en)|
-|Netherlands|[data.overheid.nl/](https://data.overheid.nl/)|
-|Denmark|[digitaliser.dk/](https://digitaliser.dk/)|
-|Norway|[data.norge.no/](https://data.norge.no/)|
-|Italy|[datiopen.it/](http://www.datiopen.it/)|
+|Netherlands|[data.overheid.nl](https://data.overheid.nl/)|
+|Denmark|[digitaliser.dk](https://digitaliser.dk/)|
+|Norway|[data.norge.no](https://data.norge.no/)|
+|Italy|[datiopen.it](http://www.datiopen.it/)|
 |Austria|[data.gv.at/auftritte/?organisation=stadt-wien](https://www.data.gv.at/auftritte/?organisation=stadt-wien)|
-|Czech|[opendata.cz/en/](https://opendata.cz/en/)|
-|Greece|[geodata.gov.gr/](http://geodata.gov.gr/)|
-|Moldova|[dataset.gov.md/](https://dataset.gov.md/)|
+|Czech|[opendata.cz/en](https://opendata.cz/en/)|
+|Greece|[geodata.gov.gr](http://geodata.gov.gr/)|
+|Moldova|[dataset.gov.md](https://dataset.gov.md/)|
 |Estonia|[andmed.stat.ee/et/stat](https://andmed.stat.ee/et/stat)|
 |Finland|[www.suomi.fi/tervetuloa-uudistuneeseen-suomifihin](https://www.suomi.fi/tervetuloa-uudistuneeseen-suomifihin)|
-|Morocco|[data.gov.ma/](http://data.gov.ma/)|
-|Ghana|[data.gov.gh/](https://data.gov.gh/)|
-|Kenya|[www.opendata.go.ke/](https://www.opendata.go.ke/)|
-|Israel|[data.gov.il/](https://data.gov.il/)|
-|Saudi Arabia|[my.gov.sa/wps/portal/snp/main/](https://www.my.gov.sa/wps/portal/snp/main/)|
+|Morocco|[data.gov.ma](http://data.gov.ma/)|
+|Ghana|[data.gov.gh](https://data.gov.gh/)|
+|Kenya|[www.opendata.go.ke](https://www.opendata.go.ke/)|
+|Israel|[data.gov.il](https://data.gov.il/)|
+|Saudi Arabia|[my.gov.sa/wps/portal/snp/main](https://www.my.gov.sa/wps/portal/snp/main/)|
 |Bahrain|[bahrain.bh/wps/portal](https://www.bahrain.bh/wps/portal)|
 |United Arab Emirates|[bayanat.ae/en/Data](https://bayanat.ae/en/Data)|
-|Oman|[opendata.om/](https://opendata.om/)|
-|India|[data.gov.in/](https://www.data.gov.in/)|
-|Singapore|[data.gov.sg/](https://data.gov.sg/)|
-|Hong Kong|[data.gov.hk/en/](https://data.gov.hk/en/)|
-|Philippines|[data.gov.ph/](https://data.gov.ph/)|
-|Timor-Leste|[transparency.gov.tl/](http://www.transparency.gov.tl/)|
-|South Korea|[data.go.kr/](https://www.data.go.kr/)|
-|Australia|[data.australia.gov.au/](http://data.australia.gov.au/)|
-|New Zealand|[data.govt.nz/](https://www.data.govt.nz/)|
+|Oman|[opendata.om](https://opendata.om/)|
+|India|[data.gov.in](https://www.data.gov.in/)|
+|Singapore|[data.gov.sg](https://data.gov.sg/)|
+|Hong Kong|[data.gov.hk/en](https://data.gov.hk/en/)|
+|Philippines|[data.gov.ph](https://data.gov.ph/)|
+|Timor-Leste|[transparency.gov.tl](http://www.transparency.gov.tl/)|
+|South Korea|[data.go.kr](https://www.data.go.kr/)|
+|Australia|[data.australia.gov.au](http://data.australia.gov.au/)|
+|New Zealand|[data.govt.nz](https://www.data.govt.nz/)|
+
+</div>
 
 ---
 
