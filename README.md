@@ -12,8 +12,6 @@
     <h2>Countries Open Data</h2>
 </div>
 
-<center>
-
 |Country|URL|
 |:------|:--|
 |Canada|[open.canada.ca/en/open-data](https://open.canada.ca/en/open-data)|
@@ -51,30 +49,24 @@
 |Australia|[data.australia.gov.au/](http://data.australia.gov.au/)|
 |New Zealand|[data.govt.nz/](https://www.data.govt.nz/)|
 
-</center>
-
 ---
 
 <div align='center'>
     <h2>OpenData Websites</h2>
 </div>
 
-|Organization / Institution|Website|URL|
-|:-------------------------|:------|:--|
-|World Health Organization|[who.int](https://www.who.int/)|[https://www.who.int/data/gho/data/indicators](https://www.who.int/data/gho/data/indicators)|
-|The World Bank|[worldbank.org](https://www.worldbank.org/en/home)|[https://datacatalog.worldbank.org/home](https://datacatalog.worldbank.org/home)
-|Registry of Open Data on AWS|[registry.opendata.aws](https://registry.opendata.aws/)|[https://registry.opendata.aws/](https://registry.opendata.aws/)|
-|Five Thirty Eight|[data.fivethirtyeight.com](https://data.fivethirtyeight.com/)|[https://data.fivethirtyeight.com/](https://data.fivethirtyeight.com/)|
-|U.S Census Bureau|[census.gov](https://www.census.gov/data.html)|[https://data.census.gov/cedsci/](https://data.census.gov/cedsci/)|
-|U.S Government's Open Data|[data.gov](https://www.data.gov/)|[https://www.data.gov/](https://www.data.gov/)|
-|Yelp|[yelp.com](https://www.yelp.com)|[https://www.yelp.com/dataset](https://www.yelp.com/dataset)|
-|UNICEF|[unicef.org](https://www.unicef.org)|[https://data.unicef.org/](https://data.unicef.org/)|
-|America's Education Data|[data.ed.gov](https://data.ed.gov/)|[https://data.ed.gov/dataset](https://data.ed.gov/dataset)|
-|GENESIS|[destatis.de/EN/Home](https://www.destatis.de/EN/Home)|[https://www-genesis.destatis.de/genesis/online/data](https://www-genesis.destatis.de/genesis/online/data?operation=sprachwechsel&language=en)|
-|Open Minneapolis|[opendata.minneapolismn.gov](https://opendata.minneapolismn.gov/)|[https://opendata.minneapolismn.gov/](https://opendata.minneapolismn.gov/)|
-|Canada Government's Open Data|[open.canada.ca](https://www.canada.ca/en.html)|[https://open.canada.ca/en/open-data](https://open.canada.ca/en/open-data)|
-|Peru Government's Open Data|[dataosperu.org](https://www.datosperu.org/)|[https://www.datosperu.org/](https://www.datosperu.org/)|
-
+|Organization / Institution|Website|Description|URL|
+|:-------------------------|:------|:----------|:--|
+|World Health Organization|[who.int](https://www.who.int/)|The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health.|[https://www.who.int/data/gho/data/indicators](https://www.who.int/data/gho/data/indicators)|
+|The World Bank|[worldbank.org](https://www.worldbank.org/en/home)|The World Bank is an internatinoal financial institution that provides loans and grants to the governments of low-and middle-income countries for the purpose of pursuing capitalprojects.|[https://datacatalog.worldbank.org/home](https://datacatalog.worldbank.org/home)|
+|Registry of Open Data on AWS|[registry.opendata.aws](https://registry.opendata.aws/)|This registry exists to help people discover and share datasets that are available via AWS resources.|[https://registry.opendata.aws/](https://registry.opendata.aws/)|
+|Five Thirty Eight|[data.fivethirtyeight.com](https://data.fivethirtyeight.com/)|[FiveThirtyEight](https://fivethirtyeight.com/) is a website using data and evidence to advance public knowledge. This is their open data portal sharing the data and code behind some of their articles and graphics.|[https://data.fivethirtyeight.com/](https://data.fivethirtyeight.com/)|
+|U.S Census Bureau|[census.gov](https://www.census.gov/data.html)|The United States census is a census that is legally mandated by the US constitution.|[https://data.census.gov/cedsci/](https://data.census.gov/cedsci/)|
+|Yelp|[yelp.com](https://www.yelp.com)|The Yelp Open Dataset is a subset of their businesses, reviews, and user data for use in personal, educational and academic purposes.|[https://www.yelp.com/dataset](https://www.yelp.com/dataset)|
+|UNICEF|[unicef.org](https://www.unicef.org)|UNICEF, also known as the United Nations Children's Fund, is a United Nations agency responsible for providing humanitarian and developmental aid to children worldwide.|[https://data.unicef.org/](https://data.unicef.org/)|
+|America's Education Data|[data.ed.gov](https://data.ed.gov/)|Data Profiles from U.S. Department of Education|[https://data.ed.gov/dataset](https://data.ed.gov/dataset)|
+|GENESIS-ONLINE|[destatis.de/EN/Home](https://www.destatis.de/EN/Home)|The German Federal Statistical Office is the institution to contact first for official data on the society, the economy, the environment and the state.|[https://www-genesis.destatis.de/genesis/online/data](https://www-genesis.destatis.de/genesis/online/data?operation=sprachwechsel&language=en)|
+|Open Minneapolis|[opendata.minneapolismn.gov](https://opendata.minneapolismn.gov/)|The City of Minneapolis seeks to provide increased access to public spatial geographic information systems (GIS) and non-spatial data that is regularly requested by private citizens and businesses. These data sets are shared free of charge and with minimal licensing.|[https://opendata.minneapolismn.gov/](https://opendata.minneapolismn.gov/)|
 
 <div align='center'>
     <h2>Topics</h2>
