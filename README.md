@@ -133,10 +133,10 @@
 |**Antwerp**|International Regional|[opendata.antwerpen.be](http://opendata.antwerpen.be/)|
 |**Aquitaine and Gironde**|International Regional|[datalocale.fr](http://datalocale.fr/)|
 |**Aragon**|International Regional|[opendata.aragon.es](http://opendata.aragon.es/)|
-|**Argentina **|International Country|[datos.gob.ar](https://datos.gob.ar)|
+|**Argentina**|International Country|[datos.gob.ar](https://datos.gob.ar)|
 |**Arizona**|US State|[openbooks.az.gov](http://openbooks.az.gov/app/transparency/index.html)|
 |**Arizona Goelogical Survey**|Other State Related|[azgs.arizona.edu](https://azgs.arizona.edu/index.php)|
-|**Arkansas **|US State|[transparency.arkansas.gov](https://transparency.arkansas.gov/)|
+|**Arkansas**|US State|[transparency.arkansas.gov](https://transparency.arkansas.gov/)|
 |**Arkansas Geographic Information Office**|Other State Related|[gis.arkansas.gov](http://gis.arkansas.gov/)|
 |**Arvada**|US City or County|[arvada.org](http://arvada.org/opendata/)|
 |**Asheville**|US City or County|[data.ashevillenc.gov](http://data.ashevillenc.gov/)|
@@ -375,7 +375,7 @@
 |**South Australia**|International Regional|[data.sa.gov.au](http://data.sa.gov.au)|
 |**South Australia Spatial Planning**|International Regional|[www.saplanningportal.sa.gov.au](https://www.saplanningportal.sa.gov.au/)|
 |**South Bend**|US City or County|[data.southbendin.gov](https://data.southbendin.gov/)|
-|**South Carolina GIS **|Other State Related|[www.gis.sc.gov](http://www.gis.sc.gov/data.html)|
+|**South Carolina GIS**|Other State Related|[www.gis.sc.gov](http://www.gis.sc.gov/data.html)|
 |**South Dakota**|US State|[open.sd.gov](http://open.sd.gov/)|
 |**Spain**|International Country|[datos.gob.es](http://datos.gob.es/)|
 |**Stockholm**|International Regional|[dataportalen.stockholm.se](https://dataportalen.stockholm.se/dataportalen/)|
@@ -425,9 +425,9 @@
 |**West Virginia GIS**|Other State Related|[mapwv.gov](http://mapwv.gov/gis_services.html)|
 |**Western Australia Ð NewSLIP**|International Regional|[www2.landgate.wa.gov.au](https://www2.landgate.wa.gov.au/web/guest/slipstream-e-news)|
 |**Windsor**|International Regional|[www.citywindsor.ca](http://www.citywindsor.ca/opendata/pages/open-data-catalogue.aspx)|
-|**Wisconsin GIS **|Other State Related|[data-wi-dnr.opendata.arcgis.com](http://data-wi-dnr.opendata.arcgis.com/)|
+|**Wisconsin GIS**|Other State Related|[data-wi-dnr.opendata.arcgis.com](http://data-wi-dnr.opendata.arcgis.com/)|
 |**World Bank**|International Regional|[data.worldbank.org](http://data.worldbank.org/)|
-|**Wyoming GIS **|Other State Related|[www.geospatialhub.org](https://www.geospatialhub.org/)|
+|**Wyoming GIS**|Other State Related|[www.geospatialhub.org](https://www.geospatialhub.org/)|
 |**Wyre Council**|International Regional|[www.wyre.gov.uk](http://www.wyre.gov.uk/opendata)|
 |**Zaragoza**|International Regional|[www.zaragoza.es](http://www.zaragoza.es/ciudad/risp/)|
 |**Zurich**|International Regional|[data.stadt-zuerich.ch](https://data.stadt-zuerich.ch/)|
