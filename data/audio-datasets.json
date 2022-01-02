@@ -1,0 +1,31 @@
+[{
+        "name": "Ballroom",
+        "desc": "This dataset gives many informatinos on ballroom dancing. Some characteristic excerpts of many dance style are provided in real audio format. Their tempi are also available.",
+        "url": "http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html"
+    },
+    {
+        "name": "FMA (Free Music Archive)",
+        "desc": "A Dataset for Music Analysis",
+        "url": "https://github.com/mdeff/fma"
+    },
+    {
+        "name": "Free Spoken Digit Dataset",
+        "desc": "A free audio dataset of spoken digits. Think MNIST for audio.",
+        "url": "https://github.com/Jakobovski/free-spoken-digit-dataset"
+    },
+    {
+        "name": "LibriSpeech",
+        "desc": "LibriSpeech is a corpus of approximately 1000 hours of 16KHz read English speech, prepared by Vassil Panayotov with the assistance of Daniel Povey.",
+        "url": "http://www.openslr.org/12/"
+    },
+    {
+        "name": "Urban Sound 8K Dataset",
+        "desc": "This dataset contains 8732 labeled sound excerpts (<=4s) of urban sounds from 10 classes.",
+        "url": "https://urbansounddataset.weebly.com/urbansound8k.html"
+    },
+    {
+        "name": "VoxCeleb",
+        "desc": "This is an audio visual dataset consisting of short clips of human speech, extracted from interview videoes uploaded to YouTube",
+        "url": "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/"
+    }
+]

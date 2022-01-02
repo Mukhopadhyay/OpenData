@@ -14,9 +14,9 @@
 <div align='center'>
 <div style="width: 500px">
 
-> **Open Data** is the idea that some data should be freely available 
-> to everyone to use and republish as they wish, without restrictions 
-> from copyright, patents or other mechanisms of control. 
+> **Open Data** is the idea that some data should be freely available
+> to everyone to use and republish as they wish, without restrictions
+> from copyright, patents or other mechanisms of control.
 > <cite>[Wikipedia](https://en.wikipedia.org/wiki/Open_data)</cite>
 
 </div>
