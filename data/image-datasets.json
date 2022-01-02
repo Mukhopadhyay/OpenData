@@ -1,0 +1,37 @@
+[
+    {
+        "name": "CIFAR-10",
+        "desc": "The CIFAR-10 dataset consists of 60000 32x32 color imagse in 10 classes, with 6000 imagse per class. There are 50000 training images and 10000 test images.",
+        "url": "https://www.cs.toronto.edu/~kriz/cifar.html"
+    },
+    {
+        "name": "COCO (Common Objects in Context)",
+        "desc": "COCO is a large-scale object detection, segmentation, and captioning dataset.",
+        "url": "https://cocodataset.org/#home"
+    },
+    {
+        "name": "Fashion-MNIST",
+        "desc": "Fashion-MNIST is a dataset consisting of training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.",
+        "url": "https://github.com/zalandoresearch/fashion-mnist"
+    },
+    {
+        "name": "ImageNet",
+        "desc": "ImageNet is an image database organized according to the [WordNet](https://wordnet.princeton.edu/) hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images.",
+        "url": "https://www.image-net.org/index.php"
+    },
+    {
+        "name": "Open Images Dataset",
+        "desc": "Open Images is a dataset of ~9M images annotated with image-level labels, object bounding boxes, object segmentation masks, visual relationships, and localized narratives.",
+        "url": "https://storage.googleapis.com/openimages/web/index.html"
+    },
+    {
+        "name": "SVHN (Street View House Number)",
+        "desc": "SVHN is a real-world image dataset for developing machine learning and object recognition algorithms with minimal requirement on data preprocessing and formatting.",
+        "url": "http://ufldl.stanford.edu/housenumbers/"
+    },
+    {
+        "name": "VisualQA",
+        "desc": "VQA is a new dataset containing open-ended questions about images. The questions require an understanding of vision, language and commonsense of knowledge to answer.",
+        "url": "https://visualqa.org/"
+    }
+]

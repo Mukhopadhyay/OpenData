@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Amazon question/answer data",
+        "desc": "This dataset contains question and answer data from Amazon, totaling around 1.4 million answered questions.",
+        "url": "http://jmcauley.ucsd.edu/data/amazon/qa/"
+    },
+    {
+        "name": "IMDB Reviews",
+        "desc": "This is a database for binary sentiment classification substantially more data than previous benchmark datasets.",
+        "url": "https://ai.stanford.edu/~amaas/data/sentiment/"
+    },
+    {
+        "name": "Machine Translation of Various Languages",
+        "desc": "This dataset consists of training data for four European languages",
+        "url": "http://statmt.org/wmt18/index.html"
+    },
+    {
+        "name": "Sentiment140",
+        "desc": "Sentiment140 allows you to discover the sentiment of a brand, product or topic on Twitter",
+        "url": "http://help.sentiment140.com/for-students/"
+    },
+    {
+        "name": "Twenty Newsgroups Dataset",
+        "desc": "This data set consists of 20000 messages taken from 20 newsgroups",
+        "url": "https://archive.ics.uci.edu/ml/datasets/Twenty+Newsgroups"
+    },
+    {
+        "name": "WordNet",
+        "desc": "WordNet is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept.",
+        "url": "https://wordnet.princeton.edu/"
+    }
+]

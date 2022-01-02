@@ -59,7 +59,7 @@
 |World Health Organization|The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health.|[who.int/data/gho/data/indicators](https://www.who.int/data/gho/data/indicators)|
 |Yelp|The Yelp Open Dataset is a subset of their businesses, reviews, and user data for use in personal, educational and academic purposes.|[yelp.com/dataset](https://www.yelp.com/dataset)|
 |Data.world|Data.world is the enterprice data catalog for modern data stack.|[data.world](https://data.world/)|
-|Science On a Sphere|[Science On a Sphere](https://sos.noaa.gov/) is a room-sized, global display system that projects visualization of planetary data onto a six foot diameter sphere to help illustrate Eartgh System science to people of all ages.|[sos.noaa.gov/catalog/datasets](https://sos.noaa.gov/catalog/datasets/)|
+|Science On a Sphere|[Science On a Sphere](https://sos.noaa.gov/) is a room-sized, global display system that projects visualization of planetary data onto a six foot diameter sphere to help illustrate Earth System science to people of all ages.|[sos.noaa.gov/catalog/datasets](https://sos.noaa.gov/catalog/datasets/)|
 |Stanford Large Network Dataset collection|The SNAP library is being actively developed since 2004 and is organically growing as a result of their research pursuits in analysis of large social and information networks.|[snap.stanford.edu/data](https://snap.stanford.edu/data/)|
 
 <div align='center'>
