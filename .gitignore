@@ -1,0 +1,9 @@
+# Ide generated folders
+.idea/*
+.vscode/*
+
+# Compiled codes
+__pycache__/
+
+# Tests
+.pytest_cache/
