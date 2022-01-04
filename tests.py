@@ -1,14 +1,15 @@
 import os
 import utils
+import config
 import pytest
 import pandas as pd
 
 expected_files = (
+    'nlp-datasets.json',
     'audio-datasets.json',
     'image-datasets.json',
-    'nlp-datasets.json',
-    'open-government.json',
-    'opendata-websites.json'
+    'opendata-websites.json',
+    'open-gov-additional.json',
 )
 
 def test_data_files() -> None:
@@ -17,17 +18,33 @@ def test_data_files() -> None:
         assert datafile in data_dir_contents
 
 def test_fetch_open_gov_csv() -> None:
-    url = utils.OPEN_GOV_URLS
+    url = config.OPEN_GOV_URLS
     assert isinstance(url, str)
     assert url.endswith('.csv')
     assert isinstance(utils.fetch_open_gov_csv(url), pd.DataFrame)
 
 def test_process_open_gov_df() -> None:
-    
+    url = config.OPEN_GOV_URLS
     df = utils.process_open_gov_df(
-        utils.fetch_open_gov_csv(utils.OPEN_GOV_URLS)
+        utils.fetch_open_gov_csv(url)
     )
     for col in ('Name', 'URL', 'Type'):
         assert col in df.columns
     for type in  df.Type.unique():
         assert type in ('International Regional', 'International Country', 'US City or County', 'US State', 'Other State Related')
+
+def test_create_audio_markdown_table() -> None:
+    aud_md = utils.create_audio_markdown_table()
+    assert isinstance(aud_md, str)
+
+def test_image_audio_markdown_table() -> None:
+    img_md = utils.create_image_markdown_table()
+    assert isinstance(img_md, str)
+
+def test_create_nlp_markdown_table() -> None:
+    nlp_md = utils.create_nlp_markdown_table()
+    assert isinstance(nlp_md, str)
+
+def test_create_openweb_markdown_table() -> None:
+    openweb_md = utils.create_openweb_markdown_table()
+    assert isinstance(openweb_md, str)
