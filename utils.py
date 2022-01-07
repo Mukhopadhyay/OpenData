@@ -6,6 +6,7 @@ from os import path
 def fetch_open_gov_csv(url: str) -> pd.DataFrame:
     return pd.read_csv(url, encoding='unicode_escape')
 
+
 def process_open_gov_df(df: pd.DataFrame) -> pd.DataFrame:
     cols = ['Name', 'URL', 'Type']
     row0 = df.columns
@@ -27,17 +28,6 @@ def process_open_gov_df(df: pd.DataFrame) -> pd.DataFrame:
     final = final[final.Type.isin(acceptable_types)]
     return final
 
-# def create_gov_markdown_table(df: pd.DataFrame) -> str:
-#     for _, row in df.iterrows():
-#         if row.URL.find('.') == -1:
-#             continue
-#         try:
-#             string = f"|**{row.Name.strip()}**|{row.Type}|[{row.URL.split('//')[1].split('/')[0]}]({row.URL})|"
-#         except Exception:
-#             string = f"|**{row.Name.strip()}**|{row.Type}|[{row.URL}]({row.URL.split('/')[0]})|"
-#         finally:
-#             print(string)
-
 
 def create_audio_markdown_table() -> str:
     with open(path.join(config.DATA_DIR, config.AUDIO_DATASETS), 'r') as file:
@@ -56,6 +46,7 @@ def create_audio_markdown_table() -> str:
 
     return '\n'.join(strings)
 
+
 def create_image_markdown_table() -> str:
     with open(path.join(config.DATA_DIR, config.IMAGE_DATASETS), 'r') as file:
         image = json.load(file)
@@ -72,6 +63,7 @@ def create_image_markdown_table() -> str:
             strings.append(string)
 
     return '\n'.join(strings)
+
 
 def create_nlp_markdown_table() -> str:
     with open(path.join(config.DATA_DIR, config.NLP_DATASETS), 'r') as file:
