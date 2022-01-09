@@ -1,5 +1,5 @@
-import utils
-import config
+import utils.utils as utils
+import utils.config as config
 
 if __name__ == '__main__':
     df = utils.process_open_gov_df(

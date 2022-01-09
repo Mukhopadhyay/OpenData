@@ -1,6 +1,6 @@
 import os
-import utils
-import config
+import utils.utils as utils
+import utils.config as config
 import pytest
 import pandas as pd
 

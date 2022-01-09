@@ -1,5 +1,5 @@
 import json
-import config
+import utils.config as config
 import pandas as pd
 from os import path
 
