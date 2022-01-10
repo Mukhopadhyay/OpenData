@@ -4,17 +4,10 @@ import utils.config as config
 import pytest
 import pandas as pd
 
-expected_files = (
-    'nlp-datasets.json',
-    'audio-datasets.json',
-    'image-datasets.json',
-    'opendata-websites.json',
-    'open-gov-additional.json',
-)
 
 def test_data_files() -> None:
     data_dir_contents = os.listdir('data')
-    for datafile in expected_files:
+    for datafile in config.EXPECTED_FILES:
         assert datafile in data_dir_contents
 
 def test_fetch_open_gov_csv() -> None:
