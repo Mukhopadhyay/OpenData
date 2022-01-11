@@ -44,7 +44,10 @@ def create_audio_markdown_table() -> str:
         finally:
             strings.append(string)
 
-    return '\n'.join(strings)
+    string = '''
+|Name|Description|URL|
+|:---|:----------|:--|\n''' +  '\n'.join(strings)
+    return string
 
 
 def create_image_markdown_table() -> str:
@@ -62,7 +65,10 @@ def create_image_markdown_table() -> str:
         finally:
             strings.append(string)
 
-    return '\n'.join(strings)
+    string = '''
+|Name|Description|URL|
+|:---|:----------|:--|\n''' +  '\n'.join(strings)
+    return string
 
 
 def create_nlp_markdown_table() -> str:
@@ -80,7 +86,10 @@ def create_nlp_markdown_table() -> str:
         finally:
             strings.append(string)
 
-    return '\n'.join(strings)
+    string = '''
+|Name|Description|URL|
+|:---|:----------|:--|\n''' +  '\n'.join(strings)
+    return string
 
 
 def create_openweb_markdown_table() -> str:
@@ -98,4 +107,7 @@ def create_openweb_markdown_table() -> str:
         finally:
             strings.append(string)
 
-    return '\n'.join(strings)
+    string = '''
+|Name|Description|URL|
+|:---|:----------|:--|\n''' +  '\n'.join(strings)
+    return string
