@@ -111,3 +111,13 @@ def create_openweb_markdown_table() -> str:
 |Name|Description|URL|
 |:---|:----------|:--|\n''' +  '\n'.join(strings)
     return string
+
+
+def get_markdown_header(header: str) -> str:
+    return f'''
+<div align = 'center'>
+
+## {header}
+
+</div>
+'''
