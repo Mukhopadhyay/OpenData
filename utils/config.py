@@ -56,3 +56,7 @@ README_TEMPLATE: str = '''
 
 ---
 '''
+
+README_FOOTER_TEMPLATE: str = '''
+[Open Government](https://github.com/Mukhopadhyay/OpenData/blob/master/OPEN_GOV.md)
+'''

@@ -17,21 +17,26 @@ if __name__ == '__main__':
         file.write(config.README_TEMPLATE)
     
     with open('TEST.md', 'a') as file:
-        file.write(utils.get_markdown_header('Open Websites'))
+        file.write(utils.get_markdown_header('OpenData Websites'))
         file.write(utils.create_openweb_markdown_table())
+        file.write('\n---\n')
     
     with open('TEST.md', 'a') as file:
         file.write(utils.get_markdown_header('NLP Datasets'))
         file.write(utils.create_nlp_markdown_table())
+        file.write('\n---\n')
     
     with open('TEST.md', 'a') as file:
         file.write(utils.get_markdown_header('Image Datasets'))
         file.write(utils.create_image_markdown_table())
+        file.write('\n---\n')
     
     with open('TEST.md', 'a') as file:
-        file.write(utils.get_markdown_header('AUDIO Datasets'))
+        file.write(utils.get_markdown_header('Audio Datasets'))
         file.write(utils.create_audio_markdown_table())
+        file.write('\n---\n')
         
-    with open('TEST.md', 'a', encoding='utf-8') as file:
+    with open('OPEN_GOV.md', 'w', encoding='utf-8') as file:
         file.write(utils.get_markdown_header('Open GOV'))
         file.write(utils.create_open_gov_markdown_table())
+        file.write('\n---\n')
