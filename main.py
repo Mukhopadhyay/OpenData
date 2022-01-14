@@ -13,8 +13,8 @@ if __name__ == '__main__':
         df.to_csv(open_gov_path, index=False)
     
     # Generate Markdown table here
-    with open('TEST.md', 'w') as file:
-        file.write(config.README_TEMPLATE)
+    # with open('TEST.md', 'w') as file:
+    #     file.write(config.README_TEMPLATE)
     
     with open('TEST.md', 'a') as file:
         file.write(utils.get_markdown_header('Open Websites'))
