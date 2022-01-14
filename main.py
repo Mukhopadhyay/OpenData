@@ -13,8 +13,8 @@ if __name__ == '__main__':
         df.to_csv(open_gov_path, index=False)
     
     # Generate Markdown table here
-    # with open('TEST.md', 'w') as file:
-    #     file.write(config.README_TEMPLATE)
+    with open('TEST.md', 'w', encoding='utf-8') as file:
+        file.write(config.README_TEMPLATE)
     
     with open('TEST.md', 'a') as file:
         file.write(utils.get_markdown_header('Open Websites'))
@@ -31,3 +31,7 @@ if __name__ == '__main__':
     with open('TEST.md', 'a') as file:
         file.write(utils.get_markdown_header('AUDIO Datasets'))
         file.write(utils.create_audio_markdown_table())
+        
+    with open('TEST.md', 'a', encoding='utf-8') as file:
+        file.write(utils.get_markdown_header('Open GOV'))
+        file.write(utils.create_open_gov_markdown_table())

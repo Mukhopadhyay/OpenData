@@ -26,6 +26,8 @@ def process_open_gov_df(df: pd.DataFrame) -> pd.DataFrame:
         'Other State Related'
     ]
     final = final[final.Type.isin(acceptable_types)]
+    final.URL = final.URL.apply(lambda x: x.strip())
+    final = final[~final.URL.str.contains(' ')]
     return final
 
 
@@ -110,6 +112,37 @@ def create_openweb_markdown_table() -> str:
     string = '''
 |Name|Description|URL|
 |:---|:----------|:--|\n''' +  '\n'.join(strings)
+    return string
+
+
+def create_open_gov_markdown_table() -> str:
+    # Reading additional open gov data portals
+    with open(path.join(config.DATA_DIR, config.OPEN_GOV_ADDITIONAL), 'r') as file:
+        gov = json.load(file)
+    
+    gov_df = pd.read_csv(path.join(config.DATA_DIR, config.OPEN_GOV_WEBSITES))
+    for _, row in gov_df.iterrows():
+        gov.append(
+            {
+                'name': row.Name,
+                'desc': row.Type,
+                'url': row.URL
+            }
+        )
+    gov = sorted(gov, key=lambda x: x['name'])
+    
+    strings = []
+    for row in gov:
+        try:
+            string = f"|**{row['name'].strip()}**|{row['desc']}|[{row['url'].split('//')[1].split('/')[0]}]({row['url']})|"
+        except Exception:
+            string = f"|**{row['name'].strip()}**|{row['desc']}|[{row['url']}]({row['url'].split('/')[0]})|"
+        finally:
+            strings.append(string)
+
+        string = '''
+|Name|Type|URL|
+|:---|:---|:--|\n''' +  '\n'.join(strings)
     return string
 
 
