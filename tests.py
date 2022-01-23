@@ -1,9 +1,11 @@
 import os
+import json
+import pytest
+import requests
+from os import path
+import pandas as pd
 import utils.utils as utils
 import utils.config as config
-import pytest
-import pandas as pd
-
 
 def test_data_files() -> None:
     data_dir_contents = os.listdir('data')
@@ -41,3 +43,12 @@ def test_create_nlp_markdown_table() -> None:
 def test_create_openweb_markdown_table() -> None:
     openweb_md = utils.create_openweb_markdown_table()
     assert isinstance(openweb_md, str)
+
+def test_urls() -> None:
+    # Testing nlp links
+    with open(path.join(config.DATA_DIR, config.NLP_DATASETS), 'r') as file:
+        nlp = json.load(file)
+        for link in nlp:
+            r = requests.get(link.get('url'))
+            assert r.status_code == 200
+        
