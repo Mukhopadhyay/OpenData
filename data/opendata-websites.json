@@ -57,7 +57,7 @@
     {
         "name": "UCI ML Repository",
         "desc": "The UCI ML repository is a collectino of databases, domain theories and data generators that are used by the machine learning comunity for the empirical analysis of machine learning algorithms.",
-        "url": "archive.ics.uci.edu/ml/index.php"
+        "url": "http://archive.ics.uci.edu/ml/index.php"
     },
     {
         "name": "UNICEF",
