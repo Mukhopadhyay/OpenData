@@ -17,6 +17,15 @@ def test_data_files() -> None:
         assert datafile in data_dir_contents
 
 
+def test_data_file_integrity(files) -> None:
+    for file, ext in files:
+        if ext == 'json':
+            with open(path.join('data', file), 'r') as f:
+                assert isinstance(json.load(f), list)
+        elif ext == 'csv':
+            assert isinstance(pd.read_csv(path.join('data', file)), pd.DataFrame)
+
+
 def test_fetch_open_gov_csv() -> None:
     url = config.OPEN_GOV_URLS
     assert isinstance(url, str)
@@ -88,7 +97,7 @@ async def call_urls(urls: list, verbose: str):
         for _, code, url in results:
             print(f'\t\t{url} ({code})')
 
-
+@pytest.mark.xfail
 def test_audio_urls():
     with open(path.join(config.DATA_DIR, config.AUDIO_DATASETS), 'r') as file:
         content = json.load(file)
@@ -97,7 +106,7 @@ def test_audio_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t AUDIO URLS\n\t{"*"*40}'))
 
-
+@pytest.mark.xfail
 def test_image_urls():
     with open(path.join(config.DATA_DIR, config.IMAGE_DATASETS), 'r') as file:
         content = json.load(file)
@@ -106,7 +115,7 @@ def test_image_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t IMAGE URLS\n\t{"*"*40}'))
 
-
+@pytest.mark.xfail
 def test_nlp_urls():
     with open(path.join(config.DATA_DIR, config.NLP_DATASETS), 'r') as file:
         content = json.load(file)
@@ -115,7 +124,7 @@ def test_nlp_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t NLP URLS\n\t{"*"*40}'))
 
-
+@pytest.mark.xfail
 def test_open_gov_additional_urls():
     with open(path.join(config.DATA_DIR, config.OPEN_GOV_ADDITIONAL), 'r') as file:
         content = json.load(file)
@@ -124,7 +133,7 @@ def test_open_gov_additional_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t OPEN-GOV ADDITIONAL URLS\n\t{"*"*40}'))
 
-
+@pytest.mark.xfail
 def test_opendata_web_urls():
     with open(path.join(config.DATA_DIR, config.OPEN_DATA_WEBSITES), 'r') as file:
         content = json.load(file)
