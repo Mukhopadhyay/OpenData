@@ -11,12 +11,14 @@ import utils.config as config
 
 warnings.filterwarnings('ignore')
 
+@pytest.mark.files
 def test_data_files() -> None:
     data_dir_contents = os.listdir('data')
     for datafile in config.EXPECTED_FILES:
         assert datafile in data_dir_contents
 
 
+@pytest.mark.files
 def test_data_file_integrity(files) -> None:
     for file, ext in files:
         if ext == 'json':
@@ -97,6 +99,8 @@ async def call_urls(urls: list, verbose: str):
         for _, code, url in results:
             print(f'\t\t{url} ({code})')
 
+
+@pytest.mark.urls
 @pytest.mark.xfail
 def test_audio_urls():
     with open(path.join(config.DATA_DIR, config.AUDIO_DATASETS), 'r') as file:
@@ -106,6 +110,8 @@ def test_audio_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t AUDIO URLS\n\t{"*"*40}'))
 
+
+@pytest.mark.urls
 @pytest.mark.xfail
 def test_image_urls():
     with open(path.join(config.DATA_DIR, config.IMAGE_DATASETS), 'r') as file:
@@ -115,6 +121,8 @@ def test_image_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t IMAGE URLS\n\t{"*"*40}'))
 
+
+@pytest.mark.urls
 @pytest.mark.xfail
 def test_nlp_urls():
     with open(path.join(config.DATA_DIR, config.NLP_DATASETS), 'r') as file:
@@ -124,6 +132,8 @@ def test_nlp_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t NLP URLS\n\t{"*"*40}'))
 
+
+@pytest.mark.urls
 @pytest.mark.xfail
 def test_open_gov_additional_urls():
     with open(path.join(config.DATA_DIR, config.OPEN_GOV_ADDITIONAL), 'r') as file:
@@ -133,6 +143,8 @@ def test_open_gov_additional_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t OPEN-GOV ADDITIONAL URLS\n\t{"*"*40}'))
 
+
+@pytest.mark.urls
 @pytest.mark.xfail
 def test_opendata_web_urls():
     with open(path.join(config.DATA_DIR, config.OPEN_DATA_WEBSITES), 'r') as file:
