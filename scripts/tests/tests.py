@@ -1,6 +1,5 @@
 import os
 import json
-from turtle import clear
 import pytest
 import asyncio
 import aiohttp
@@ -72,6 +71,7 @@ async def fetch(session, url):
         result = await response.text(), response.status, url
         return result
 
+
 async def fetch_all(session, urls):
     tasks = []
     for url in urls:
@@ -79,6 +79,7 @@ async def fetch_all(session, urls):
         tasks.append(task)
     result = await asyncio.gather(*tasks)
     return result
+
 
 async def audio_urls():
     with open(path.join(config.DATA_DIR, config.AUDIO_DATASETS), 'r') as file:
@@ -92,6 +93,7 @@ async def audio_urls():
         for _, code, url in results:
             print(f'\t\t{url} ({code})')
 
+
 async def image_urls():
     with open(path.join(config.DATA_DIR, config.IMAGE_DATASETS), 'r') as file:
         content = json.load(file)
@@ -103,6 +105,7 @@ async def image_urls():
         print(verbose)
         for _, code, url in results:
             print(f'\t\t{url} ({code})')
+
 
 async def nlp_urls():
     with open(path.join(config.DATA_DIR, config.NLP_DATASETS), 'r') as file:
@@ -116,6 +119,7 @@ async def nlp_urls():
         for _, code, url in results:
             print(f'\t\t{url} ({code})')
 
+
 async def open_gov_add_urls():
     with open(path.join(config.DATA_DIR, config.OPEN_GOV_ADDITIONAL), 'r') as file:
         content = json.load(file)
@@ -127,6 +131,7 @@ async def open_gov_add_urls():
         print(verbose)
         for _, code, url in results:
             print(f'\t\t{url} ({code})')
+
 
 async def opendata_website_urls():
     with open(path.join(config.DATA_DIR, config.OPEN_DATA_WEBSITES), 'r') as file:
@@ -142,21 +147,31 @@ async def opendata_website_urls():
 
 
 def test_audio_urls():
-    asyncio.run(audio_urls())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(audio_urls())
+    # asyncio.run(audio_urls())
 
 
 def test_image_urls():
-    asyncio.run(image_urls())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(image_urls())
+    # asyncio.run(image_urls())
 
 
 def test_nlp_urls():
-    asyncio.run(nlp_urls())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(nlp_urls())
+    # asyncio.run(nlp_urls())
 
 
 def test_open_gov_additional_urls():
-    asyncio.run(open_gov_add_urls())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(open_gov_add_urls())
+    # asyncio.run(open_gov_add_urls())
 
 
 def test_opendata_web_urls():
-    asyncio.run(opendata_website_urls())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(opendata_website_urls())
+    # asyncio.run(opendata_website_urls())
 

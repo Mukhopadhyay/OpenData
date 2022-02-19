@@ -11,3 +11,6 @@ __pycache__/
 # IPython stuff
 .ipynb_checkpoints
 *.ipynb
+
+# Environments
+venv
