@@ -81,97 +81,55 @@ async def fetch_all(session, urls):
     return result
 
 
-async def audio_urls():
-    with open(path.join(config.DATA_DIR, config.AUDIO_DATASETS), 'r') as file:
-        content = json.load(file)
-        urls = [_['url'] for _ in content]
-    
+async def call_urls(urls: list, verbose: str):
     async with aiohttp.ClientSession() as session:
         results = await fetch_all(session, urls)
-        verbose = f'\n\t{"*"*40}\n\t AUDIO URLS\n\t{"*"*40}'
-        print(verbose)
-        for _, code, url in results:
-            print(f'\t\t{url} ({code})')
-
-
-async def image_urls():
-    with open(path.join(config.DATA_DIR, config.IMAGE_DATASETS), 'r') as file:
-        content = json.load(file)
-        urls = [_['url'] for _ in content]
-
-    async with aiohttp.ClientSession() as session:
-        results = await fetch_all(session, urls)
-        verbose = f'\n\t{"*"*40}\n\t IMAGE URLS\n\t{"*"*40}'
-        print(verbose)
-        for _, code, url in results:
-            print(f'\t\t{url} ({code})')
-
-
-async def nlp_urls():
-    with open(path.join(config.DATA_DIR, config.NLP_DATASETS), 'r') as file:
-        content = json.load(file)
-        urls = [_['url'] for _ in content]
-    
-    async with aiohttp.ClientSession() as session:
-        results = await fetch_all(session, urls)
-        verbose = f'\n\t{"*"*40}\n\t NLP URLS\n\t{"*"*40}'
-        print(verbose)
-        for _, code, url in results:
-            print(f'\t\t{url} ({code})')
-
-
-async def open_gov_add_urls():
-    with open(path.join(config.DATA_DIR, config.OPEN_GOV_ADDITIONAL), 'r') as file:
-        content = json.load(file)
-        urls = [_['url'] for _ in content]
-    
-    async with aiohttp.ClientSession() as session:
-        results = await fetch_all(session, urls)
-        verbose = f'\n\t{"*"*40}\n\t OPEN-GOV ADDITIONAL URLS\n\t{"*"*40}'
-        print(verbose)
-        for _, code, url in results:
-            print(f'\t\t{url} ({code})')
-
-
-async def opendata_website_urls():
-    with open(path.join(config.DATA_DIR, config.OPEN_DATA_WEBSITES), 'r') as file:
-        content = json.load(file)
-        urls = [_['url'] for _ in content]
-    
-    async with aiohttp.ClientSession() as session:
-        results = await fetch_all(session, urls)
-        verbose = f'\n\t{"*"*40}\n\t OPENDATA-WEB URLS\n\t{"*"*40}'
         print(verbose)
         for _, code, url in results:
             print(f'\t\t{url} ({code})')
 
 
 def test_audio_urls():
+    with open(path.join(config.DATA_DIR, config.AUDIO_DATASETS), 'r') as file:
+        content = json.load(file)
+        urls = [_['url'] for _ in content]
+
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(audio_urls())
-    # asyncio.run(audio_urls())
+    loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t AUDIO URLS\n\t{"*"*40}'))
 
 
 def test_image_urls():
+    with open(path.join(config.DATA_DIR, config.IMAGE_DATASETS), 'r') as file:
+        content = json.load(file)
+        urls = [_['url'] for _ in content]
+        
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(image_urls())
-    # asyncio.run(image_urls())
+    loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t IMAGE URLS\n\t{"*"*40}'))
 
 
 def test_nlp_urls():
+    with open(path.join(config.DATA_DIR, config.NLP_DATASETS), 'r') as file:
+        content = json.load(file)
+        urls = [_['url'] for _ in content]
+
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(nlp_urls())
-    # asyncio.run(nlp_urls())
+    loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t NLP URLS\n\t{"*"*40}'))
 
 
 def test_open_gov_additional_urls():
+    with open(path.join(config.DATA_DIR, config.OPEN_GOV_ADDITIONAL), 'r') as file:
+        content = json.load(file)
+        urls = [_['url'] for _ in content]
+
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(open_gov_add_urls())
-    # asyncio.run(open_gov_add_urls())
+    loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t OPEN-GOV ADDITIONAL URLS\n\t{"*"*40}'))
 
 
 def test_opendata_web_urls():
+    with open(path.join(config.DATA_DIR, config.OPEN_DATA_WEBSITES), 'r') as file:
+        content = json.load(file)
+        urls = [_['url'] for _ in content]
+        
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(opendata_website_urls())
-    # asyncio.run(opendata_website_urls())
+    loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t OPENDATA-WEB URLS\n\t{"*"*40}'))
 
