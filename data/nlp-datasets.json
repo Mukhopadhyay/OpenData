@@ -15,6 +15,66 @@
         "url": "http://statmt.org/wmt18/index.html"
     },
     {
+        "name": "Multi-Domain Sentiment Dataset",
+        "desc": "A massive variety of Amazon products along with their corresponding reviews",
+        "url": "https://www.cs.jhu.edu/~mdredze/datasets/sentiment/"
+    },
+    {
+        "name": "Stanford Sentiment Treebank",
+        "desc": "Dataset for training a model to identify sentiment with the use of longer phases with its 10,000+ Rotten Tomatoes reviews",
+        "url": "https://nlp.stanford.edu/sentiment/code.html"
+    },
+    {
+        "name": "Twitter US Airline Sentiment",
+        "desc": "Analyze how travelers in February 2015 expressed their feelings on Twitter",
+        "url": "https://www.kaggle.com/crowdflower/twitter-airline-sentiment/"
+    },
+    {
+        "name": "20 Newsgroups",
+        "desc": "A collection featuring 20,000 documents that covers 20 newsgroups and subjects",
+        "url": "http://qwone.com/~jason/20Newsgroups/"
+    },
+    {
+        "name": "Rueters News Dataset",
+        "desc": "Originally appearing in 1987, this dataset has been labeled, indexed, and compiled for use in machine learning. ",
+        "url": "https://archive.ics.uci.edu/ml/datasets/Reuters-21578+Text+Categorization+Collection"
+    },
+    {
+        "name": "ArXiv",
+        "desc": "This massive 270 GB dataset features all arXiv research papers in fulltext.",
+        "url": "https://arxiv.org/help/bulk_data_s3"
+    },
+    {
+        "name": "The WikiQA Corpus",
+        "desc": "This publicly-available Q&A dataset was initially compiled to aid in all open-domain question answering research.",
+        "url": "https://www.microsoft.com/en-us/download/details.aspx?id=52419&from=https%3A%2F%2Fresearch.microsoft.com%2Fapps%2Fmobile%2Fdownload.aspx%3Fp%3D4495da01-db8c-4041-a7f6-7984a4f6a905"
+    },
+    {
+        "name": "UCI's Spambase Data set",
+        "desc": "This dataset was created by a team at HP (Hewlett-Packard) to help create a spam filter. It contains a litanie of emails previously labeled as spam by users. ",
+        "url": "https://archive.ics.uci.edu/ml/datasets/Spambase"
+    },
+    {
+        "name": "Yelp Open Dataset",
+        "desc": "This Yelp dataset features 8.5M+ reviews of over 160,000 businesses. It also has 200,000+ pictures and spans across 8 major metropolitan areas.",
+        "url": "https://www.yelp.com/dataset"
+    },
+    {
+        "name": "Enron Email Dataset",
+        "desc": "This dataset contains 500,000+ messages of Enron officials' emails and is especially of use for anyone looking to expand their understanding of the inner-workings of email tools.",
+        "url": "https://www.cs.cmu.edu/~./enron/"
+    },
+    {
+        "name": "Google Books Ngrams",
+        "desc": "A data set containing Google Books n-gram corpora. This data set is freely available on Amazon S3 in a Hadoop friendly file format and is licensed under a Creative Commons Attribution 3.0 Unported License.",
+        "url": "https://aws.amazon.com/datasets/google-books-ngrams/"
+    },
+    {
+        "name": "Wikipedia Links Data",
+        "desc": "This Google dataset contains approximately 13 million documents with each containing a hyperlink (one minimum each) that goes to an English wikipedia page",
+        "url": "https://code.google.com/archive/p/wiki-links/downloads"
+    },
+    {
         "name": "Sentiment140",
         "desc": "Sentiment140 allows you to discover the sentiment of a brand, product or topic on Twitter",
         "url": "http://help.sentiment140.com/for-students/"
