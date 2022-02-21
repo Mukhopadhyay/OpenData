@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import pytest
 import asyncio
@@ -154,3 +155,10 @@ def test_opendata_web_urls():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t OPENDATA-WEB URLS\n\t{"*"*40}'))
 
+
+@pytest.mark.urls
+def test_readme_intro_urls():
+    text = config.README_TEMPLATE
+    urls = set(re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|.[0-9a-zA-Z])+', text))
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(call_urls(urls, f'\n\t{"*"*40}\n\t README-INTRO URLS\n\t{"*"*40}'))
