@@ -1,7 +1,8 @@
 import json
-import utils.config as config
 import pandas as pd
 from os import path
+from typing import Optional
+import utils.config as config
 
 def fetch_open_gov_csv(url: str) -> pd.DataFrame:
     return pd.read_csv(url, encoding='unicode_escape')
@@ -146,8 +147,25 @@ def create_open_gov_markdown_table() -> str:
     return string
 
 
-def get_markdown_header(header: str) -> str:
-    return f'''
+def get_markdown_header(header: str, index_link: Optional[bool] = True) -> str:
+    if index_link:
+        return f'''
+
+<br/><br/>
+
+[⬆️ Go back to index](#index)
+
+<div align = 'center'>
+
+## {header}
+
+</div>
+'''
+    else:
+        return f'''
+
+<br/><br/>
+
 <div align = 'center'>
 
 ## {header}

@@ -52,11 +52,25 @@ README_TEMPLATE: str = '''
 - [Image Datasets](#image-datasets)
 - [NLP Datasets](#nlp-datasets)
 - [Audio Datasets](#audio-datasets)
-- [Open Government Sites](#open-government-sites)
+- [Open Government Sites](https://github.com/Mukhopadhyay/OpenData/blob/master/OPEN_GOV.md)
 
 ---
 '''
 
-README_FOOTER_TEMPLATE: str = '''
-[Open Government](https://github.com/Mukhopadhyay/OpenData/blob/master/OPEN_GOV.md)
+OPENGOV_README_TEMPLATE: str = '''
+<div align='center'>
+    <h1>Open Data ❤️</h1>
+</div>
+
+<br/>
+
+## Index
+- [Index](#index)
+- [OpenData Websites](#opendata-websites)
+- [Image Datasets](#image-datasets)
+- [NLP Datasets](#nlp-datasets)
+- [Audio Datasets](#audio-datasets)
+- [Open Government Sites](https://github.com/Mukhopadhyay/OpenData/blob/master/OPEN_GOV.md)
+
+---
 '''
