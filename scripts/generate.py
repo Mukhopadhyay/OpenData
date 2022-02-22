@@ -40,6 +40,6 @@ if __name__ == '__main__':
         
     with open('OPEN_GOV.md', 'w', encoding='utf-8') as file:
         file.write(config.OPENGOV_README_TEMPLATE)
-        file.write(utils.get_markdown_header('Open GOV', index_link=False))
+        file.write(utils.get_markdown_header('Open Governments', index_link=False))
         file.write(utils.create_open_gov_markdown_table())
         file.write('\n---\n')

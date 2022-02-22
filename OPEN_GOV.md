@@ -20,7 +20,7 @@
 
 <div align = 'center'>
 
-## Open GOV
+## Open Governments
 
 </div>
 
