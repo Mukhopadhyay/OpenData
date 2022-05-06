@@ -19,22 +19,22 @@ if __name__ == '__main__':
         file.write(config.README_TEMPLATE)
     
     with open(filename, 'a', encoding='utf-8') as file:
-        file.write(utils.get_markdown_header('📊 OpenData Websites', index_link=False))
+        file.write(utils.get_markdown_header('📊 OpenData Websites', name='opendata-websites', index_link=False))
         file.write(utils.create_openweb_markdown_table())
         file.write('\n---\n')
     
     with open(filename, 'a', encoding='utf-8') as file:
-        file.write(utils.get_markdown_header('📚 NLP Datasets'))
+        file.write(utils.get_markdown_header('📚 NLP Datasets', name='nlp-datasets'))
         file.write(utils.create_nlp_markdown_table())
         file.write('\n---\n')
     
-    with open(filename, 'a',encoding='utf-8') as file:
-        file.write(utils.get_markdown_header('🖼️ Image Datasets'))
+    with open(filename, 'a', encoding='utf-8') as file:
+        file.write(utils.get_markdown_header('🖼️ Image Datasets', name='image-datasets'))
         file.write(utils.create_image_markdown_table())
         file.write('\n---\n')
     
     with open(filename, 'a', encoding='utf-8') as file:
-        file.write(utils.get_markdown_header('🎵 Audio Datasets'))
+        file.write(utils.get_markdown_header('🎵 Audio Datasets', name='audio-datasets'))
         file.write(utils.create_audio_markdown_table())
         file.write('\n---\n')
         

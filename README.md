@@ -27,10 +27,10 @@
 
 ## Index
 - [Index](#index)
-- [📊 OpenData Websites](#📊-opendata-websites)
-- [🖼️ Image Datasets](#🖼️-image-datasets)
-- [NLP Datasets](#nlp-datasets)
-- [Audio Datasets](#audio-datasets)
+- [📊 OpenData Websites](#opendata-websites)
+- [🖼️ Image Datasets](#image-datasets)
+- [📚 NLP Datasets](#nlp-datasets)
+- [🎵 Audio Datasets](#audio-datasets)
 - [Open Government Sites](https://github.com/Mukhopadhyay/OpenData/blob/master/OPEN_GOV.md)
 
 ---
@@ -74,7 +74,11 @@
 
 <div align = 'center'>
 
+<a name='nlp-datasets'>
+
 ## 📚 NLP Datasets
+
+</a>
 
 </div>
 
@@ -108,7 +112,11 @@
 
 <div align = 'center'>
 
+<a name='image-datasets'>
+
 ## 🖼️ Image Datasets
+
+</a>
 
 </div>
 
@@ -130,7 +138,11 @@
 
 <div align = 'center'>
 
+<a name='audio-datasets'>
+
 ## 🎵 Audio Datasets
+
+</a>
 
 </div>
 

@@ -147,7 +147,7 @@ def create_open_gov_markdown_table() -> str:
     return string
 
 
-def get_markdown_header(header: str, index_link: Optional[bool] = True) -> str:
+def get_markdown_header(header: str, name: str = '#', index_link: Optional[bool] = True) -> str:
     if index_link:
         return f'''
 
@@ -157,7 +157,11 @@ def get_markdown_header(header: str, index_link: Optional[bool] = True) -> str:
 
 <div align = 'center'>
 
+<a name='{name}'>
+
 ## {header}
+
+</a>
 
 </div>
 '''

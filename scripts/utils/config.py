@@ -48,10 +48,10 @@ README_TEMPLATE: str = '''
 
 ## Index
 - [Index](#index)
-- [📊 OpenData Websites](#📊-opendata-websites)
-- [🖼️ Image Datasets](#🖼️-image-datasets)
-- [NLP Datasets](#nlp-datasets)
-- [Audio Datasets](#audio-datasets)
+- [📊 OpenData Websites](#opendata-websites)
+- [🖼️ Image Datasets](#image-datasets)
+- [📚 NLP Datasets](#nlp-datasets)
+- [🎵 Audio Datasets](#audio-datasets)
 - [Open Government Sites](https://github.com/Mukhopadhyay/OpenData/blob/master/OPEN_GOV.md)
 
 ---
